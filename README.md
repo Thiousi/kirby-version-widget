@@ -3,6 +3,9 @@ Kirby dashboard widget displaying installed and latest version with link to chan
 
 Built for my own use, free for anyone to use.
 
+## Screenshot
+![Kirby Version Widget screenshot](https://github.com/Thiousi/kirby-version-widget/blob/master/kirby-version-widget.jpg)
+
 ## Installation
 Copy the site folder in this repo to your site folder.
 
