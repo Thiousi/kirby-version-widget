@@ -3,10 +3,10 @@
 
 
 return array(
-			'options' => array(
+		'options' => array(
 		      array(
 		        'text' => 'View Changelog',
-		        'icon' => 'eye',
+		        'icon' => 'version',
 		        'link' => 'http://getkirby.com/changelog',
 		        'target' => '_blank'
 		      )
