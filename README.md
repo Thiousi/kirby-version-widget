@@ -1,5 +1,5 @@
 # Kirby Version Widget 
-Kirby dashboard widget displaying installed and latest version with link to changelog.
+Kirby dashboard widget displaying installed and latest version with link to changelog. Inspired (largely) by [kirby version by Fabian Sperrle.](https://github.com/FabianSperrle/kirby-version)
 
 Built for my own use, free for anyone to use.
 
