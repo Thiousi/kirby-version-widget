@@ -15,10 +15,10 @@ return array(
   
   	// Defines the core content of the widget
 	'html'  => function() {
-	  	$kirby = kirby(); // Get current version from Kirby
+	  	$kirby = kirby(); 
 	  	$rss = simplexml_load_file('http://getkirby.com/changelog/feed'); 
 	  	$data = array(
-	  		'kirby' => $kirby::$version,
+	  		'kirby' => $kirby::$version, // Get current version from Kirby
 	  		'latest' => $rss->channel->item[0]->title, // Check the version number of the latest entry in the Kirby changelog
 	  		'link' => $rss->channel->item[0]->link, // Get the link to the latest entry in the Kirby changelog
 	  	);
