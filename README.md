@@ -4,7 +4,13 @@ Kirby dashboard widget displaying installed and latest version with link to chan
 Built for my own use, free for anyone to use.
 
 ## Screenshot
-![Kirby Version Widget screenshot](https://github.com/Thiousi/kirby-version-widget/blob/master/kirby-version-widget.jpg)
+Latest version is installed
+
+![Kirby Version Widget screenshot Latest version](https://github.com/Thiousi/kirby-version-widget/blob/master/latest.jpg)
+
+New version available
+
+![Kirby Version Widget screenshot New version](https://github.com/Thiousi/kirby-version-widget/blob/master/new version.jpg)
 
 ## Installation
 Copy the site folder in this repo to your site folder.
@@ -12,4 +18,4 @@ Copy the site folder in this repo to your site folder.
 ## Roadmap
 - add logic to show widget only to certain users
 - make widget multi-lingual
-- Display only when update available?
+
