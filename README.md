@@ -5,7 +5,7 @@
 
 Panel dashboard widget displaying installed and latest version with link to changelog for [Kirby](http://getkirby.com).
 
-![Kirby Version Widget screenshot Latest version](https://github.com/Thiousi/kirby-version-widget/blob/master/latest.jpg)
+![Kirby Version Widget screenshot Latest version](https://github.com/Thiousi/kirby-version-widget/blob/master/latestversion.png)
 
 ## Installation
 
@@ -32,7 +32,7 @@ You don't have anything to do once the widget is installed. The widget has two s
 
 ### 1. Latest version is installed
 
-![Kirby Version Widget screenshot Latest version](https://github.com/Thiousi/kirby-version-widget/blob/master/latestversion.pgn)
+![Kirby Version Widget screenshot Latest version](https://github.com/Thiousi/kirby-version-widget/blob/master/latestversion.png)
 
 ### 2. New version available
 When a new version is available, clicking on the version number will redirect to the Kirby Changelog for that version.
