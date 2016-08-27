@@ -3,6 +3,6 @@
 "description": "Panel dashboard widget displaying installed and latest version with link to changelog",
 "author": "Mathieu Etienne",
 "license": "MIT",
-"version": "1.1.0",
+"version": "2.0.0",
 "type": "kirby-plugin"
 }
