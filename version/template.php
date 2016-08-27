@@ -4,7 +4,7 @@
 	<?php if($latest == $kirby):
 		echo '<strong style="color: #8dae28">You have the latest version installed!</strong>';
 	else:
-		echo '<i class="fa fa-chain"></i> <a href="' . $link . '" style="padding-left: 0; color: #b3000a"><strong> New version available: </strong> Kirby ' . $latest . ' </a>';
+		echo '<a href="' . $link . '" style="padding-left: 0; color: #b3000a"><i class="fa fa-chain"></i> <strong> New version available: </strong> Kirby ' . $latest . ' </a>';
 	endif; ?>
 	</li>
 </ul>
