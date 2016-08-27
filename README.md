@@ -1,5 +1,5 @@
 # Kirby Version Widget
-![Version](https://img.shields.io/badge/version-1.1.0-green.svg)
+![Version](https://img.shields.io/badge/version-2.0.0-green.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![Kirby Version](https://img.shields.io/badge/Kirby-2.3%2B-red.svg)
 
@@ -38,9 +38,26 @@ You don't have anything to do once the widget is installed. The widget has two s
 When a new version is available, clicking on the version number will redirect to the Kirby Changelog for that version.
 ![Kirby Version Widget screenshot New version](https://github.com/Thiousi/kirby-version-widget/blob/master/newversion.png)
 
+## Options
+
+The following option can be set in your `/site/config/config.php` file:
+
+```php
+/* Version widget */
+c::set('plugin.version.widget.cache_period', '+1 day');
+```
+
+### plugin.drafts.widget.cache_period
+
+This option is used to define how long the remote version will be cached. It can take a few seconds for the version to be checked depending on a few factors. By default this is set to `+1 days` which means the cache will last for one day. The function used to convert this is ![strtotime](http://php.net/manual/en/function.strtotime.php). You can change this to for example to:
+- `next week`
+- `+5 days`
+- `+1 week 2 days 4 hours 2 seconds`
+
 ## To-do
 - [ ] Display the widget only for admin role (with option in config)
 - [ ] Make it multi-lingual
+- [X] Check latest version from cache
 - [X] ~~Update readme~~
 - [X] ~~Make it CLI and submodule compatible~~
 
@@ -64,3 +81,6 @@ MIT
 - Fixed icon
 - Added chain icon on new version message
 - Fixed compressed headline and spacing issues
+
+### 2.0.0
+- Now with buil-in custom cache!
