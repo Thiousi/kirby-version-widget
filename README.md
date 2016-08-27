@@ -49,14 +49,14 @@ c::set('plugin.version.widget.cache_period', '+1 day');
 
 ### plugin.drafts.widget.cache_period
 
-This option is used to define how long the remote version will be cached. It can take a few seconds for the version to be checked depending on a few factors. By default this is set to `+1 days` which means the cache will last for one day. The function used to convert this is ![strtotime](http://php.net/manual/en/function.strtotime.php). You can change this to for example to:
+This option is used to define how long the remote version will be cached. It can take a few seconds for the version to be checked depending on a few factors. By default this is set to `+1 days` which means the cache will last for one day. The function used to convert this is [strtotime](http://php.net/manual/en/function.strtotime.php). You can change this to for example to:
 - `next week`
 - `+5 days`
 - `+1 week 2 days 4 hours 2 seconds`
 
 ## To-do
 - [ ] Display the widget only for admin role (with option in config)
-- [ ] Make it multi-lingual
+- [ ] Internationalize widget?
 - [X] Check latest version from cache
 - [X] ~~Update readme~~
 - [X] ~~Make it CLI and submodule compatible~~
@@ -64,6 +64,8 @@ This option is used to define how long the remote version will be cached. It can
 ## Credits
 - [@jenstornell](https://github.com/jenstornell) for his feedback.
 - Inspired by [kirby version by Fabian Sperrle.](https://github.com/FabianSperrle/kirby-version)
+- [@lukasbestle](https://github.com/lukasbestle/) for his help with the cache and making sure my code wouldn't launch any nuclear missiles!
+- [Kirbygram](https://github.com/PWesterdale/KirbyGram) for inspiration on using a custom cache system.
 
 ## License
 MIT
