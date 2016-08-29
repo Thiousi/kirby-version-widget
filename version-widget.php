@@ -5,11 +5,11 @@ $kirby->set('widget', 'version', __DIR__ . DS . 'version');
 function GetKirbyVersion_check_cache(){
   $cache_path = kirby()->roots()->cache() . DS . 'plugin.version.widget.json';
   if(f::exists($cache_path)){
-    $cache = json_decode(f::read($cache_path, 'json'));
-    if($cache->to < time()){
+    $cache = data::read($cache_path, 'json');
+    if($cache['to'] < time()){
       return false;
     } else {
-      return $cache->payload;
+      return $cache['payload'];
     }
   } else {
     return false;
@@ -21,7 +21,7 @@ function GetKirbyVersion_set_cache($result){
   $cache_path = kirby()->roots()->cache() . DS . 'plugin.version.widget.json';
   $period = c::get('plugin.version.widget.cache_period') ? c::get('plugin.version.widget.cache_period') : '+1 day';
   $data = array('to' => strtotime($period), 'payload' => $result);
-  f::write($cache_path, json_encode($data));
+  data::write($cache_path, $data, 'json');
 }
 
 // Get latest Kirby version either from cache or from changelog

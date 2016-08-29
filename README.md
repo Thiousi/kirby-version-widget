@@ -72,17 +72,17 @@ MIT
 
 ## Changelog
 ### 1.0.0
-- Initialial release
+- Initial release
 
 ### 1.1.0
 - Changed colors to default panel colors
 - Made CLI compatible
 - Made Submodule compatible
-- Enhanced Readme
+- Enhanced readme
 - Updated screenshots
 - Fixed icon
 - Added chain icon on new version message
 - Fixed compressed headline and spacing issues
 
 ### 2.0.0
-- Now with buil-in custom cache!
+- Now with built-in configurable custom cache!
